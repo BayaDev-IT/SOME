@@ -1,0 +1,151 @@
+@media(max-width: 430px) {
+    .header_top_block {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .header_top_block img {
+        margin-right: 0;
+        max-width: 98px;
+        margin: 8px 0 10px 0;
+    }
+    .header_top_block h1 {
+        font-size: 18px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .wrapper_survey {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .about_app_text{
+        margin-top: -40px;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .img_videoLesson {
+        width: 40px;
+        height: 40px;
+    }
+
+    .img_videoL {
+        border-radius: 25px;
+        max-width: 330px;
+        height: 198px;
+    }
+
+    .main_part {
+        display: none;
+    }
+
+    .about_project {
+        margin: 45px 0;
+    }
+    .about_pr_title {
+        font-size: 24px;
+    }
+
+    .about_pr_text {
+        margin-top: -30px;
+        font-size: 15px;
+        width: 330px;
+    }
+
+    .download h2 {
+        font-size: 24px;
+    }
+
+    .block_downl {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 45px;
+        margin-top: 35px;
+    }
+
+    .android {
+        width: 130px;
+        height: 101px;
+    }
+    .icon {
+        width: 87px;
+        height: 87px;
+    }
+
+    .dowl_text {
+        width: 330px;
+    }
+
+    .download p {
+        font-size: 15px;
+    }
+
+    .footer_block {
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: baseline;
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer_title {
+        margin-top: -100px;
+        font-size: 24px;
+    }
+
+    .footer_items {
+        display: flex;
+        margin-top: 10px;
+    }
+
+    .footer_text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 30%;
+        gap: 15px;
+    }
+
+    .footer_table h3 {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    .footer_items img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .footer_items {
+        display: flex;
+        justify-content: baseline;
+        align-items: center;
+        gap: 36px;
+    }
+
+    .footer_table p {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 993px) {
+    .burger_menu {
+        display: none;
+    }
+}
+@media (max-width: 993px) {
+    .menu {
+        display: none;
+    }
+}
